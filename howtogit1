@@ -1,0 +1,29 @@
+남이 올린 프로젝트 가져오기!
+
+
+1. 레파지토리 생성
+2. 바탕화면에 새 파일 생성
+3. 옮길 파일들 새 파일에 옮기기
+
+4. cmd 켜고 파일경로 넣고  
+
+C:\>cd C:\Users\user0\Desktop\reactex
+
+파일 경로가 선택된 것임
+
+5. git init
+Initialized empty Git repository in C:/Users/user0/Desktop/reactex/.git/
+
+6. 그리고 
+
+C:\Users\user0\Desktop\reactex>git remote add origin https://github.com/Ashleyworld/reactex.git
+
+git add .
+
+
+git commit -m "create reat"
+
+git push -> 하면 
+아래에 git push --set-upstream origin master 가 뜬다
+
+그대로 복사해서 넣으면 파일 추가 완료된 것
